@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head start :p-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="THis is description">
+    <!--SEO-->
+    <meta name="keywords" content="html,html tutorial,trying html">
+    <!--want google to index and follow the site-->
+    <meta name="robots" content="index,follow">
+    <title>Document</title>
+    <!--include css-->
+    <link rel="stylesheet" href="part1.css">
+    <!--include js-->
+    <script src="part1.js"></script>
+    <style>
+        h1 {background-color: aqua;}
+    </style>
+</head>
+
+<body>
+    <h1>My First Heading</h1>
+    <hr>
+    <p>maa diye <strong>mithiye</strong> morniye</p>
+    <p>dil kede <em>gabru</em> nu dena</p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore soluta mollitia eaque, error at facere, asperiores
+    aperiam similique magnam est aut perspiciatis! Voluptates.
+    <a href="https://google.com" target="_blank">go to google</a> <br>
+    <a href="/static/blg1.txt">
+        <h2>blog</h2>
+    </a>
+
+    <img src="/static/img224.jpg" alt="Nothing found" width="1000" height="500">
+
+    <ul>
+        <li>first</li>
+        <li>secomd</li>
+        <ul>
+            <li>someone</li>
+            <li>sometwo</li>
+        </ul>
+
+    </ul>
+
+    <ol type="a"">
+    <li>once</li>
+    <li>twice</li>
+    <ol>
+        <li>hundred</li>
+        <li>hundblue</li>
+    </ol>
+</ol>
+
+<table>
+    <thead>
+        <tr>
+        <th>Name</th>
+        <th>Designation</th>
+            </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Ashu</td>
+            <td>Lyricist</td>
+        </tr>
+        <tr>
+            <td>Harf Cheema</td>
+            <td>Singer/Lyricist</td>
+        </tr>
+    
+    </tbody>
+</table>
+<h2>FORMS</h2>
+<form action="backend.py">
+<div>
+    NAME:<input type=" text" name="myname">
+        </div>
+        <div>ROLE: <input type="text" name="nyrole"></div>
+        <div>Salary <input type="number" name="mysalary"> </div>
+        <div>Email: <input type="email" name="myemail"></div>
+        <!-- CHECKBOXES-->
+        <div>
+            Are you eligible &#8203;<input type="checkbox" name="myeligibility">
+
+        </div>
+        <div>Gender:Male <input type="checkbox" name="mygender">Female <input type="checkbox" name="mygender"></div>
+        <div>
+            <div>Gender:Male <input type="radio" name="mygender">Female <input type="radio" name="mygender"></div>
+    <div>Write your problem <br> <textarea name="mytext"  cols="30" rows="10"></textarea></div>
+    <div><label for="car">CARS</label>
+            <select name="mycar" id="car">
+                <option value="thar">THAR</option>
+                <option value="gwagon">GWAGON </option>
+            </select></div>
+    <div><input type="submit" value="SUbmit NOW!">
+         <input type="reset" value="reset"></div>
+</form>
+</body>
+
+</html>
